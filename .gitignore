@@ -1,0 +1,5 @@
+config.php
+italianblogfiles/
+*.zip
+*.tar
+*.tar.gz
