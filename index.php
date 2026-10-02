@@ -21,7 +21,7 @@ foreach ($files as $file) {
 
         "slug" => $slug,
 
-        "modified" => filemtime($file)
+        "modified" => filectime($file)
 
     ];
 }
