@@ -28,7 +28,7 @@ foreach ($files as $file) {
 
 usort($posts, function ($a, $b) {
 
-    return $a["slug"] <=> $b["slug"];
+    return $b["modified"] <=> $a["modified"];
 });
 
 ?>
